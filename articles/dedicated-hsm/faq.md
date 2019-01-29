@@ -163,11 +163,11 @@ Yes. You can send logs from the HSM appliance to a syslog server
 
 Yes. High availability configuration and setup are performed in the HSM client software provided by Gemalto. HSMs from the same VNET or other VNETs in the same region or across regions, or on-prem HSMs connected to a VNET using site-to-site or point-to-point VPN can be added to same high availability configuration.
 
-### Can I add HSMs from my on-premises network to a high availability group with Azure Dedicated HSM?
+### Q: Can I add HSMs from my on-premises network to a high availability group with Azure Dedicated HSM?
 
 Yes. They must meet the high availability requirements for SafeNet Luna Network HSM 7.
 
-### Can I add Luna 5/6 HSMs from on-premises networks to a high availability group with Azure Dedicated HSM?
+### Q: Can I add Luna 5/6 HSMs from on-premises networks to a high availability group with Azure Dedicated HSM?
 
 No.
 
@@ -244,7 +244,7 @@ Yes. Dedicated HSM service provisions SafeNet Network HSM 7 appliances that use 
 
 The Dedicated HSM service provisions SafeNet Luna Network HSM 7 appliances. These appliances use FIPS 140-2 Level 3 validated HSMs. The default deployed configuration, operating system, and firmware are also FIPS validated. You do not need to take any action for FIPS 140-2 Level 3 compliance.
 
-### How does a customer ensure that when an HSM is deprovisioned all the key material is wiped out?
+### Q: How does a customer ensure that when an HSM is deprovisioned all the key material is wiped out?
 
 Before requesting deprovisioning, a customer must have zeroized the HSM using Gemalto provided HSM client tools.
 
